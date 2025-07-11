@@ -54,33 +54,42 @@ Unzip the `phishing_url_detector.zip` so you have access to `app.py` and the `mo
 
 ### Step 2: Train the Model
 
+Open the Jupyter Notebook:
+
+run the model.ipynb
+
 This notebook:
-
 Loads and processes the dataset.
-
 Trains a Random Forest model.
-
 Saves random_forest_model.pkl and selected_features.pkl into the models/ folder inside the Flask app.
 
 ✅ Make sure these 2 files are saved correctly before proceeding.
+
+
 ---
-Step 3: Run the Web App
+
+### Step 3: Run the Web App
 Navigate into the project folder and run:
 
-bash
-Copy
-Edit
 cd phishing_url_detector
 python app.py
 Open your browser and go to:
 
-cpp
-Copy
-Edit
+
 http://127.0.0.1:5000/
 You’ll now see the Phishing Detector Web App running locally!
 
-Open the Jupyter Notebook:
+## 📌 Dependencies
+Install the required libraries:
+pip install flask flask-cors joblib scikit-learn pandas
 
-```bash
-jupyter notebook Phishing_Model_Training.ipynb
+
+## 📈 Model Info
+Model Used: RandomForestClassifier
+
+Accuracy: ~95% on test data
+
+Features: URL length, number of special characters, presence of IP, email in URL, and more
+
+## 📄 License
+This project is for educational purposes. You can fork, extend, or use it with proper attribution.
