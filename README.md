@@ -79,17 +79,36 @@ Open your browser and go to:
 http://127.0.0.1:5000/
 You’ll now see the Phishing Detector Web App running locally!
 
-## 📌 Dependencies
+
+---
+
+### 📌 Dependencies
 Install the required libraries:
 pip install flask flask-cors joblib scikit-learn pandas
 
 
-## 📈 Model Info
+
+---
+
+### 📈 Model Info
 Model Used: RandomForestClassifier
 
 Accuracy: ~95% on test data
 
 Features: URL length, number of special characters, presence of IP, email in URL, and more
 
-## 📄 License
+
+---
+
+### 📄 License
 This project is for educational purposes. You can fork, extend, or use it with proper attribution.
+### 💻 UI
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/cc88d222-85b2-43a3-8361-9b4bfa611136" />
+
+
+
+---
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afacb760-f70b-45b9-a90a-3f1f2361764e" />
+
+
